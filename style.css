@@ -1,0 +1,123 @@
+/*
+Theme Name: 零れた涙
+Theme URI: http://blog.dimpurr.com/Knamida
+Version: 0.0.1
+Author: Dimpurr
+Author URI: http://dimpurr.com
+Description: 君の横顔 気付かず 零れた涙 頬を伝う せつなの ときめきを この胸に 隠してたの……?
+Text Domain: knamida
+*/
+
+@import url('src/reset.css');
+
+/* Common */
+
+.clearfix {
+	clear: both;
+}
+
+h1, h2, h3, h4, h5, h6, p, q, blockquote, li, a {
+	font-family: "Hiragino Sans GB W3", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", "PMingLiU", "MingLiU", "Hiragino Sans GB", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei", "Apple LiGothic Medium", "SimHei", "ST Heiti", "WenQuanYi Zen Hei Sharp", Sans;
+	color: #454647;
+}
+
+a, a:visited {
+	text-decoration: none;
+	border-bottom: 1px #ABACAD dashed;
+	color: #232425;
+}
+
+.p_article .p_t img , .p_article .wp-caption {
+	max-width: 100% !important;
+	width: 100% !important;
+}
+
+/* Main */
+
+#page {
+	width: 100%;
+}
+
+#left {
+	margin-left: 10px;
+	width: 180px;
+	float: left;
+}
+
+#center {
+	margin: 0 210px;
+}
+
+#banner {
+	height: 230px;
+	width: 100%;
+	display: block;
+}
+
+#right {
+	margin-right: 10px;
+	width: 200px;
+	float: right;
+}
+
+/* Style */
+
+body {
+	background: #FCFCFC;
+}
+
+#left {
+	padding: 20px 10px;
+	position: fixed;
+	top: 0;
+}
+
+#header_ctn h1 {
+	display: block;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 42px;
+	margin: 0;
+}
+
+#header_ctn h2 {
+	display: inline;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	margin: 20px 5px;
+}
+
+#nav {
+	width: 150px;
+	border-top: 1px solid #ABACAD;
+	margin: 20px 0px;
+	padding: 20px 5px;
+}
+
+#nav li {
+	font-size: 15px;
+	margin: 5px 0;
+}
+
+#banner::before {
+	content: '';
+	display: inline-block;
+	float: left;
+	height: 100%;
+	width: 210px;
+	background: rgba(255,255,255,0.7);
+}
+
+#banner #b_img {
+	height: 100%;
+	width: 100%;
+	background-image: url(img/banner.jpg);
+	background-size: 100%;
+	background-position: center center;
+}
+
+#center {
+	background: #FFF;
+	padding: 20px 20px;
+}
