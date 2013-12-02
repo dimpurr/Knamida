@@ -56,7 +56,7 @@ a, a:visited {
 
 #right {
 	margin-right: 10px;
-	width: 200px;
+	width: 180px;
 	float: right;
 }
 
@@ -120,4 +120,23 @@ body {
 #center {
 	background: #FFF;
 	padding: 20px 20px;
+}
+
+#p_l {
+	width: 200px;
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	text-align: right;
+	line-height: 32px;
+	margin-right: 10px;
+}
+
+.p_h_h {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+#right {
+	padding: 20px 10px;
 }
